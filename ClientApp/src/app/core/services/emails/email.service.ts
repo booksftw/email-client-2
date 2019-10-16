@@ -11,7 +11,7 @@ export class EmailService {
   ) { }
 
   getTest() {
-    let testRes = this.http.get("http://localhost:3000/yo");
+    let testRes = this.http.get("yo");
     return testRes;
     // return "Howdy backend results";
   }
