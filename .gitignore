@@ -48,3 +48,21 @@
 # System Files
 .DS_Store
 Thumbs.db
+
+
+# Backend
+/Backend-TypeScript-Node/node_modules/*
+/Backend-TypeScript-Node/.vscode/*
+/Backend-TypeScript-Node/.vscode/settings.json
+/Backend-TypeScript-Node/!.vscode/tasks.json
+/Backend-TypeScript-Node/!.vscode/launch.json
+/Backend-TypeScript-Node/!.vscode/extensions.json
+
+/Backend-TypeScript-Node/.sass-cache
+/Backend-TypeScript-Node/connect.lock
+/Backend-TypeScript-Node/coverage
+/Backend-TypeScript-Node/libpeerconnection.log
+/Backend-TypeScript-Node/npm-debug.log
+/Backend-TypeScript-Node/testem.log
+/Backend-TypeScript-Node/typings
+/Backend-TypeScript-Node/package-lock.json
